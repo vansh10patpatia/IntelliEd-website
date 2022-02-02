@@ -1,0 +1,214 @@
+.slider-box{
+
+    width: 59.60rem;
+    height: 25rem;
+    /* left: 0px; */
+    /* top: 0px; */
+
+    background: rgba(255, 248, 248, 0.01);
+    box-shadow: inset 0px 39px 56px -36px rgba(255, 255, 255, 0.5), inset 0px 7px 11px -4px #FFFFFF, inset 0px -82px 68px -64px rgba(96, 68, 144, 0.3), inset 0px 98px 100px -48px rgba(202, 172, 255, 0.3), inset 0px 4px 18px rgba(154, 146, 210, 0.3), inset 0px 1px 0px #8DF1FF;
+    backdrop-filter: blur(100px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.slider-container{
+    margin-top:-13%;
+    padding-bottom:5%
+}
+.ft-slick__dots--custom {
+    height: 10px;
+    width: 10px;
+    background-color: #e5e7e9;
+    border-radius: 5px;
+    position: relative;
+    margin-top:10px;
+    font-weight: 600;
+  }
+
+  .slick-active >.ft-slick__dots--custom {
+      margin-bottom:-120%;
+      padding-top:10%
+  }
+  .slick-dots .slick-active .ft-slick__dots--custom {
+    width: 40px;
+    top: 58% ;
+    overflow: hidden;
+    
+  }
+;
+.slick-dots{
+    /* bottom: 0 !important; */
+    margin-bottom:-3% !important;
+}
+.loading {
+    height: 8px;
+    animation: loading 5s ease-in;
+    background-image: linear-gradient(270deg, #4fd15a, #03ac0e);
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 4px;
+    margin-top:10px
+  }
+  .slick-dots li {
+    width: 14px;
+    margin: 0 2px;
+    transition: width 0.3s ease-in-out;
+    margin-bottom:-4% !important;
+  }
+
+  .slick-dots .slick-active {
+    width: 50px;
+    transition: width 0.3s ease-in-out;
+    margin-top:10px
+  }
+
+
+.slider-container{
+    margin-left:0 !important;
+    padding-bottom: 40px;
+    
+    
+}
+
+.slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 150px;
+}
+
+.slider-box{
+    display: flex;
+       align-items: center;
+    justify-content: space-between;
+}
+.slider-box{
+    margin-left:10%
+}
+
+.slides-container{
+    margin-left:20vw !important;
+}
+
+.slider-row{
+    width:100vw;
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+.slider-context{
+    /* padding: 20px; */
+    padding-left: 50px;
+    padding-top: 20px;
+    /* width: 500px; */
+    color: #fff !important;
+
+    /* align-items: center;
+    justify-content: space-between; */
+}
+
+.slider-main-context{
+    /* Track Student Progress */
+
+    /* margin-top: 50px; */
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 2.5rem !important;
+line-height: 70px;
+/* or 140% */
+letter-spacing: 0.05em;
+
+
+
+
+}
+
+.slider-sub-context{
+
+    margin-top: 2.5rem;
+
+
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 1.5rem;
+line-height: 33px;
+letter-spacing: 0.01em;
+
+color: #fff;
+
+
+}
+
+
+.slider-image3{
+  width: 80%;
+ /* height: auto;  */
+
+}
+.slider-image2{
+    width: 70%;
+}
+
+.slider-image0,
+.slider-image1{
+    width: 90%;
+}
+.slider-image-container{
+    padding-right: 30px;
+}
+@media only screen and (max-width: 600px) {
+    .slick-active >.ft-slick__dots--custom {
+        margin-bottom:-48%;
+        padding-top:0
+    }
+    .slick-dots .slick-active .ft-slick__dots--custom {
+        width: 40px;
+        top: 28% ;
+        overflow: hidden;
+        
+      }
+    .slick-dots{
+        margin-bottom:-12% !important
+    }
+    .slides-container{
+        margin-left:0 !important;
+    }
+    .slider-box{
+        width: 110%;
+        height: auto;
+    }
+    .slider-main-context{
+        font-size: 1.9rem !important;
+    }
+    .slider-sub-context{
+        font-size: 1rem !important;
+        margin-top: 0.5rem;
+    }
+    .slider-image0,
+    .slider-image1{
+        width:20rem
+    }
+    .slider-image2{
+        width:12rem;
+        margin-left:4rem
+
+    }
+    .slider-image3{
+        width:11rem;
+        margin-left:4rem
+    }
+}
+

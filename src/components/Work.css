@@ -1,0 +1,142 @@
+.work-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 60px;
+/* identical to box height */
+
+letter-spacing: 0.09em;
+
+color: #365FCD;
+
+margin-top: 100px;
+margin-bottom: 100px;
+}
+
+
+
+.work-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* z-index: -1; */
+    position: relative;
+}
+
+.youtube-logo{
+    position: absolute;
+    top: 45%;
+  text-align: center;
+  font-size: 18px;
+
+}
+.work-youtube{
+    position: relative;
+    right:45px
+}
+
+.medal-logo{
+    position:relative;
+    bottom: 180px;
+    z-index: 10;
+}
+
+.male-logo{
+    position: absolute;
+    bottom: -13px;
+    right: 13%;
+    font-size: 18px;
+  
+}
+
+.female-logo{
+    position: absolute;
+    position: absolute;
+    bottom: -20px;
+    left: 20%;
+
+}
+.work-lining{
+
+   
+    background-color: #365FCD;
+    width: 215px;
+    height: 5px;
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .work-heading{
+        font-size:2.0rem;
+        margin-left:2%;
+        margin-right: 2%;
+     
+    }
+    
+
+    .work-lining{
+
+        background-color: #365FCD;
+        width: 50px;
+        height: 5px;
+        border-radius: 10px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    .medal-logo{
+        position:relative;
+        bottom: 80px;
+        z-index: 10;
+        width:15vw
+    }
+
+    .work-image{
+        margin-left: 10%;
+    }
+    .work-youtube{
+        /* position: relative; */
+        /* right:45px */
+        width: 95vw
+    }
+
+    .youtube-logo{
+        position: absolute;
+        top: 40%;
+        left:40%;
+        text-align: center;
+        font-size: 18px;
+        width:10vw
+    
+    }
+
+
+    
+    .female-logo{
+        position: absolute;
+        top: 170px;
+        width:40vw;
+        left: -30px;
+
+        /* display: none; */
+    
+    }
+    .male-logo{
+        position: absolute;
+        top: 30vw;
+        /* left:50vw; */
+        right:-10vw;
+        width:30vw;
+
+        /* display: none; */
+    
+    
+    }
+}

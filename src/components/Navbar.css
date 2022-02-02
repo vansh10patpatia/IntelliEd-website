@@ -1,0 +1,135 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: #fff !important;
+
+
+}
+
+.navbar-heading{
+    display: flex;
+    color: #fff !important;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px !important;
+    letter-spacing: 0.05em;
+    margin-left:-25%
+}
+.navbar-tiles{
+    color: #fff !important;
+    font-size: 1.3rem !important;
+}
+
+/* .navbar-subheading{ */
+    /* margin-top: 9px; */
+    /* display: flex; */
+    /* justify-content: space-around; */
+    /* width: 100%; */
+/* } */
+
+.navbar-feature{
+    /* width: 118px;
+    height: 38px; */
+    font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 37px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+}
+
+.navbar-work{
+    width: 171px;
+    height: 38px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 37px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;    
+}
+
+
+
+
+.navbar-demo{
+    width: 172px;
+    height: 52px;
+    box-shadow: 2px 1px 4px rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    background-color: white; 
+    border-width: 0;   
+}
+
+.demo-text{
+    width: 139px;
+    height: 38px;
+    font-family: Poppins;
+    font-style: normal;
+    /* font-weight: 600; */
+    font-size: 1.2rem;
+    line-height: 37px;
+    /* identical to box height */
+    
+    letter-spacing: 0.02em;
+    
+    color: #0F9C57;    
+}
+.navbar-toggler{
+    color: #fff !important;
+}
+
+.tiles-container{
+    margin-left:15%
+}
+
+.how-it-works{
+    position:relative;
+    left:50%;
+}
+.demo-button{
+    position: absolute;
+    right:40px;
+}
+.navbar-demo{
+    font-weight: 600 !important;
+    height:50px
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 0.55)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+    border-width:0
+}
+
+@media only screen and (max-width: 600px) {
+   
+    .demo-button{
+        position: absolute;
+        right:-30px
+    }
+    .tiles-container{
+        margin-left:0
+    }
+    .navbar-heading{
+        position: relative;
+        /* right:50px; */
+        margin-left:0 !important
+    }
+    .navbar-tiles{
+        margin-left:50px;
+        margin-right:50px
+    }
+    .navbar-expand-lg .navbar-collapse{
+        margin-left:-15% !important
+    }
+    .how-it-works{
+        position:relative;
+        left:0;
+    }
+  }

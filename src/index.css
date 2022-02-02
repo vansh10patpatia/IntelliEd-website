@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@700&display=swap');
+
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-image: url('/public/bg.svg');
+  background-repeat: no-repeat;
+  background-size: cover; */
+  /* background-position: center; */
+  /* background-size: 100% 100%; */
+  /* padding-top:-5% */
+}
+
+
+.headContainer{
+  background-image: url('/public/bg1.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 8%;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+@media (min-width: 1400px){
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+      max-width: 85vw !important;
+  }
+}
+
+.downContainer{
+
+  background-image: url('/public/bg2.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 6%;
+}
+
+*{
+  font-family: 'Poppins' !important;
+}
+@media only screen and (max-width: 600px){
+  .downContainer{
+     margin-top: 20% !important;
+  } 
+  .headContainer{
+    padding-bottom: 25%;
+  }
+}

@@ -1,0 +1,126 @@
+.benefit-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 60px;
+    letter-spacing: 0.09em;
+
+    color: #365FCD;
+    margin-left:10%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.benefit-details{
+    display: flex;
+    align-items: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4375rem;
+    line-height: 34px;
+    letter-spacing: 0.07em;
+
+    color: #365FCD;
+    margin-top: 25px;
+    margin-bottom: 55px;
+}
+
+.benefit-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+.benefit-image{
+    width: 50%;
+}
+
+.benefit-container{
+    margin-left:5% !important
+}
+
+.app-image{
+    width: 35vw;
+}
+
+.benefit{
+    padding: 40px;
+    margin-top:5%
+}
+
+.benefit-tick{
+    margin-right: 20px;
+}
+
+.benefit-heading-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .bold-border{
+    border: 6px solid #365FCD;
+    width: 100px;
+    height: 0px;
+
+    margin-top: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+} */
+
+.benefit-lining{
+
+    background-color: #365FCD;
+    width: 215px;
+    height: 5px;
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.app-image{
+    margin-right: -10%;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .benefit-heading{
+        font-size:2.2rem;
+        margin-left:-12%;
+        margin-right:-5%
+    }
+
+    .benefit-lining{
+        background-color: #365FCD;
+        width: 50px;
+        height: 5px;
+        border-radius: 10px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    .benefit{
+        margin-top:20%!important
+    }
+    .benefit-box{
+        /* display: flex; */
+        align-items: center;
+        /* justify-content: space-between; */
+        margin-left: 0px;
+        padding: 0px!important;
+    }
+    .app-image{
+        width: 80vw;
+        margin-left:-5%
+    }
+    .benefit-details{
+        font-size:1.2375rem;
+    }
+}
