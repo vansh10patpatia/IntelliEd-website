@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.92b0465b.css",
+    "main.js": "/static/js/main.53098d8d.js",
+    "static/js/787.99a59ff1.chunk.js": "/static/js/787.99a59ff1.chunk.js",
+    "static/media/main-bg.png": "/static/media/main-bg.2111cc611d894b1ab019.png",
+    "static/media/Mockup.png": "/static/media/Mockup.dd3abeb382be0976cf92.png",
+    "static/media/contact_1.png": "/static/media/contact_1.52de3b3dde437fd9c367.png",
+    "static/media/sliderImage_4.png": "/static/media/sliderImage_4.26a3e3d23881e5522657.png",
+    "static/media/benefits.png": "/static/media/benefits.fad52d71ec17e45dc1fe.png",
+    "static/media/sliderImage_2.png": "/static/media/sliderImage_2.0703ac9ac40b22366c63.png",
+    "static/media/sliderImage_3.png": "/static/media/sliderImage_3.39ec3faeccc4fcbea1d2.png",
+    "static/media/sliderImage_1.png": "/static/media/sliderImage_1.f013a4e185e2a4decce3.png",
+    "static/media/male.png": "/static/media/male.08d9ee7176823ee72686.png",
+    "static/media/female.png": "/static/media/female.972b1b9768aee51530c6.png",
+    "static/media/features2.png": "/static/media/features2.f28e3fba00abcce116d4.png",
+    "static/media/features4.png": "/static/media/features4.0ef8a549389ea600d424.png",
+    "static/media/features3.png": "/static/media/features3.629123dd690d45ee55c4.png",
+    "static/media/bg2.svg": "/static/media/bg2.49fd8869ffbef293169a.svg",
+    "static/media/features6.png": "/static/media/features6.c5c3f7127e12cd7705e8.png",
+    "static/media/bg1.svg": "/static/media/bg1.04dd9221f8e6d0ec5137.svg",
+    "static/media/feature_1.jpg": "/static/media/feature_1.5874a28f09b50aa5ea8c.jpg",
+    "static/media/features5.png": "/static/media/features5.44d3c91772cdb0eb8352.png",
+    "static/media/medal.png": "/static/media/medal.913a57f0dc1967b884f5.png",
+    "static/media/contact-us-bg.svg": "/static/media/contact-us-bg.8e5642f62f4b7abd38da.svg",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.92b0465b.css.map": "/static/css/main.92b0465b.css.map",
+    "main.53098d8d.js.map": "/static/js/main.53098d8d.js.map",
+    "787.99a59ff1.chunk.js.map": "/static/js/787.99a59ff1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92b0465b.css",
+    "static/js/main.53098d8d.js"
+  ]
+}
