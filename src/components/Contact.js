@@ -57,7 +57,7 @@ function Contact(props){
 
                        </div>
 
-                       <div className='contact-details'>
+                       <div className='contact-details contact-form'>
 
                            <InputGroup className="mb-3 inputs">
                                <FormControl aria-label="Text input with checkbox" placeholder="Name" />
@@ -65,12 +65,12 @@ function Contact(props){
 
                        </div>
 
-                       <div className='contact-details'>
+                       <div className='contact-details contact-form'>
                            <InputGroup className="mb-3 inputs">
                                <FormControl aria-label="Text input with checkbox" placeholder="Email Id" />
                            </InputGroup>
                        </div>
-                       <div className='contact-details'>
+                       <div className='contact-details contact-form'>
                            <Form.Control as="textarea" className="inputs" rows={3} placeholder="How can we help you?" />
                        </div>
 
