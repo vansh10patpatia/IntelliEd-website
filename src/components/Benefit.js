@@ -28,7 +28,7 @@ function Benefit(props) {
     function renderBenefit(item,key) {
         return(
             <div className='benefit-details'>
-                <span><img src={tick} className='benefit-tick' /></span>{item.benefit}
+                <span><img src={tick} alt='benefit-tick' className='benefit-tick' /></span>{item.benefit}
             </div>
         )
     }
@@ -55,7 +55,7 @@ function Benefit(props) {
                     </Col>
                     <Col md={{ span: 4, offset: 2}}>
                         <div className='benefit-image'>
-                            <img src={benefit} className='app-image' />
+                            <img src={benefit} alt='benefit' className='app-image' />
                         </div>
                     </Col>
                 </Row>

@@ -18,11 +18,11 @@ function Work(props) {
             </div>
 
             <div className='work-image'>
-                <img src={medal} className='medal-logo'/>
-                <img src={black} className='work-youtube'/>
-                <img src={youtube} className='youtube-logo'/>
-                <img src={male} className='male-logo'/>
-                <img src={female} className='female-logo'/>
+                <img src={medal} alt='medal-logo' className='medal-logo'/>
+                <img src={black} alt='black-logo' className='work-youtube'/>
+                <img src={youtube} alt='youtube-logo'className='youtube-logo'/>
+                <img src={male} alt='male-logo'className='male-logo'/>
+                <img src={female} alt='female-logo'className='female-logo'/>
                 
             </div>
            

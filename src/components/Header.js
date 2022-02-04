@@ -1,7 +1,6 @@
 import React from 'react';
 // import mobile from "../images/mobiles.png";
 import mobile from "../images/Mockup.png";
-import styled from "styled-components";
 import "./Header.css"
 import { Row, Container, Col } from "react-bootstrap";
 

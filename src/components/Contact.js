@@ -1,8 +1,5 @@
 import React from 'react';
 import "./Contact.css";
-import bg from "../images/contact_1.png";
-import mainBg from "../images/main-bg.png";
-// import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BsTwitter,BsInstagram } from "react-icons/bs";
 import { FaLinkedin } from "react-icons/fa";
@@ -11,9 +8,6 @@ import { Form, Button, Container, FormControl, Row, InputGroup,Col } from "react
 
 import gmail from "../images/gmail.png";
 import phone from "../images/phone.png";
-// import twitter from "../images/contact_icons/twitter.png";
-// import insta from "../images/contact_icons/inst.png";
-// import linkedin from "../images/contact_icons/linkedIn.png";
 
 function Contact(props){
 
@@ -31,8 +25,8 @@ function Contact(props){
                             </div>
 
                             <div className='gmail-phone-div'>
-                                <div className='contact-gmail'><span className='gmail-image'><img src={gmail} className='' /></span>info.intellied@gmail.com</div>
-                                <div className='contact-phone'><span className='gmail-image'><img src={phone} className='' /></span>+91123456789</div>
+                                <div className='contact-gmail'><span className='gmail-image'><img src={gmail} alt='icon-image'/></span>info.intellied@gmail.com</div>
+                                <div className='contact-phone'><span className='gmail-image'><img src={phone} alt='icon-image'/></span>+91123456789</div>
                             </div>
                             <div className='line'></div>
                             <div className="icon-holder">
@@ -89,8 +83,8 @@ function Contact(props){
                 <div className="navbar-extra">
                     <div className="navbar-heading">IntelliED</div>
                     <div className='gmail-phone-div'>
-                        <div className='contact-gmail'><span className='gmail-image'><img src={gmail} style={{height:20}}/></span> info.intellied@gmail.com</div>
-                        <div className='contact-phone'><span className='gmail-image'><img src={phone} style={{height:20}}/></span>  +91123456789</div>
+                        <div className='contact-gmail'><span className='gmail-image'><img src={gmail} alt='icon image' style={{height:20}}/></span> info.intellied@gmail.com</div>
+                        <div className='contact-phone'><span className='gmail-image'><img src={phone} alt='icon image' style={{height:20}}/></span>  +91123456789</div>
                     </div>
                     <div className="contact-icons">
                         <div > <BsTwitter className="color-gradient"  /></div>

@@ -17,7 +17,7 @@ body {
 
 
 .headContainer{
-  background-image: url('/public/bg1.svg');
+  background-image: url('./images/bg1.svg');
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 8%;
@@ -36,7 +36,7 @@ code {
 
 .downContainer{
 
-  background-image: url('/public/bg2.svg');
+  background-image: url('./images/bg2.svg');
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 6%;

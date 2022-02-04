@@ -52,7 +52,7 @@ function Feature(props) {
                 <div className='feature-container'>
                     <div className='feature-box'>
                         <div className='feature-image-box'>
-                        <img src={item.image} className='features-image' />
+                            <img src={item.image} alt='features-image' className='features-image' />
                         </div>
                         <div className='feature-context'>{item.heading}</div>
                         <div className='feature-sub-context' dangerouslySetInnerHTML={{ __html: item.subHeading }}></div>

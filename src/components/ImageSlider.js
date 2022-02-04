@@ -1,5 +1,4 @@
-import React, { Component } from "react";
-import styled from 'styled-components';
+import React from "react";
 import "./ImageSlider.css";
 import sliderImage1 from "../images/sliderImage_1.png";
 import sliderImage2 from "../images/sliderImage_2.png";
@@ -16,10 +15,9 @@ function ImageSlider(props) {
     const settings = {
         dots: true,
         infinite: true,
-        speed: 100,
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed:3000,
         arrows: false,
         speed: 500,
@@ -68,7 +66,7 @@ function ImageSlider(props) {
                 </Col>
                 <Col md={{ span: 5, offset: 1 }}>
                     <div className='slider-image-container'>
-                        <img src={item.image} className={imageClass} />
+                        <img src={item.image} alt='slider-image' className={imageClass} />
                     </div>
                 </Col>
             </Row>
