@@ -5,7 +5,6 @@ import { Navbar, Container, Nav } from "react-bootstrap";
 
 function HeadNavbar(props) {
 
-    const {feature,work,contact , executeScroll} = props;
 
     return (
         <>
@@ -13,7 +12,6 @@ function HeadNavbar(props) {
             <Container>
                 <Navbar.Brand  >
                     <Nav.Link className="navbar-heading" href='#intellied' >IntelliED</Nav.Link>
-                    {/* <div className="navbar-heading">IntelliED</div> */}
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center">
