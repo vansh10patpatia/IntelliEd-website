@@ -3,7 +3,9 @@
     align-items: center;
     width: 100%;
     color: #fff !important;
-
+    background-image: url('../images/navbar-bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
@@ -86,7 +88,7 @@ letter-spacing: 0.05em;
 }
 
 .tiles-container{
-    margin-left:15%
+    /* margin-left:15% */
 }
 
 .how-it-works{

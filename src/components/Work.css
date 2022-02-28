@@ -42,8 +42,10 @@ margin-bottom: 100px;
 
 .medal-logo{
     position:relative;
-    bottom: 180px;
-    z-index: 10;
+    bottom: 250px;
+    left:-40px
+    /* z-index: 10; */
+    /* top: 0px; */
 }
 
 .male-logo{
@@ -52,6 +54,12 @@ margin-bottom: 100px;
     right: 13%;
     font-size: 18px;
   
+}
+iframe{
+    width: 50vw;
+    height: 50vh;
+    margin-left:-90px
+
 }
 
 .female-logo{
@@ -71,6 +79,8 @@ margin-bottom: 100px;
     margin-right: 5px;
     margin-left: 5px;
 }
+
+
 
 
 @media only screen and (max-width: 600px) {
@@ -93,18 +103,24 @@ margin-bottom: 100px;
     }
     .medal-logo{
         position:relative;
-        bottom: 80px;
-        z-index: 10;
-        width:15vw
+        /* bottom: 80px; */
+        /* z-index: 10; */
+        width:15vw;
+        left:-45px
     }
 
     .work-image{
         margin-left: 10%;
     }
-    .work-youtube{
+    .work-youtube,.youtube-video-container{
         /* position: relative; */
         /* right:45px */
         width: 95vw
+    }
+
+    iframe{
+        width: 95vw !important;
+        margin-left:-90px
     }
 
     .youtube-logo{
@@ -121,7 +137,7 @@ margin-bottom: 100px;
     
     .female-logo{
         position: absolute;
-        top: 170px;
+        /* top: 170px; */
         width:40vw;
         left: -30px;
 
@@ -130,7 +146,7 @@ margin-bottom: 100px;
     }
     .male-logo{
         position: absolute;
-        top: 30vw;
+        /* top: 30vw; */
         /* left:50vw; */
         right:-10vw;
         width:30vw;
