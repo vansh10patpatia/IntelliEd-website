@@ -11,23 +11,25 @@ import Contact from './components/Contact';
 import scrollToComponent from 'react-scroll-to-component';
 
 function App() {
-  const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop)   ;
-  const myRef = useRef(null)
-  const executeScroll = () => scrollToRef(myRef)
-  const [feauture,setFeature] =useState()
-  const data={ offset: 0, align: 'middle', duration: 500, ease:'inCirc'}
   return (
     <div>
       <div className="headContainer">
-        <Navbar   executeScroll={()=>scrollToComponent(feauture,data)} />
+        <Navbar   />
         <Header />
         <ImageSlider />
       </div>
        <div className="downContainer">
-        <Feature ref={myRef} className='violet' ref={(section) => { setFeature(section); }} />
-        <Work />
+        <div id='feature-container'>
+          <Feature  />
+        </div>
+        <div id='work-container'>
+          <Work />
+        </div>
         <Benefit />
-        <Contact />
+        <div id='contact-container'>
+          <Contact />
+        </div>
+        <a href='#feature-container' >Hello</a>
        </div>
     </div>
   );

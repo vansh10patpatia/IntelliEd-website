@@ -17,11 +17,11 @@ function HeadNavbar(props) {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center">
                     <Nav className="tiles-container">
-                        <Nav.Link className="navbar-tiles" onClick={()=>executeScroll()}>Features</Nav.Link>
-                        <Nav.Link className="navbar-tiles how-it-works" onClick={()=>executeScroll()}>How it Works</Nav.Link>
+                        <Nav.Link className="navbar-tiles" href='#feature-container' >Features</Nav.Link>
+                        <Nav.Link className="navbar-tiles how-it-works" href='#work-container'>How it Works</Nav.Link>
                         <Nav.Link className="navbar-tiles demo-button" >
                             <div >
-                                <button className='navbar-demo' onClick={()=>executeScroll()}>
+                                <button className='navbar-demo' href='#contact-container'>
                                     <span className='demo-text'> Free Demo</span>
                                 </button>
                             </div>

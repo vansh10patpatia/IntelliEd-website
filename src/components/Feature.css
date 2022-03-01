@@ -58,7 +58,7 @@
     font-family: Poppins;
     font-style: normal;
     font-weight: 550;
-    font-size: 30px;
+    font-size: 28px;
     line-height: 20px;
 /* identical to box height */
 
@@ -79,6 +79,24 @@ text-align: center;
 letter-spacing: 0.02em;
 font-weight: 500;
 margin-top: 20px;
+}
+@media only screen and (max-width: 1200px) {
+
+    .feature-context{
+        font-size:24px;
+    }
+
+    .feature-sub-context{
+        font-size: 16px;
+    }
+
+}
+
+@media only screen and (max-width: 1000px) {
+    .feature-context{
+        font-size:20px;
+    }
+
 }
 
 @media only screen and (max-width: 600px) {
