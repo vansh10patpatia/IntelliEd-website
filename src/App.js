@@ -29,7 +29,6 @@ function App() {
         <div id='contact-container'>
           <Contact />
         </div>
-        <a href='#feature-container' >Hello</a>
        </div>
     </div>
   );
