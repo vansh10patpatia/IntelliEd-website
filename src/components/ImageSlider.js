@@ -76,7 +76,7 @@ function ImageSlider(props) {
     return (
         <Container className="slider-container">
             <Row className="slider-row">
-                <Col md={{ span: 12, offset: 1}}>
+                <Col md={{ span: 12}}>
                         <Slider {...settings}>
                             {sliderDetails.map((data,key) => renderSlider(data,key))}
                         </Slider>

@@ -17,32 +17,32 @@ function Feature(props) {
         {
             image:feature_1,
             heading:'Predictive Analytics',
-            subHeading:'Discover patterns and insights through our <br /> interactive visualizations that are designed<br /> to answer key questions'
+            subHeading:'Discover patterns and insights through our  interactive visualizations that are designed to answer key questions'
         },
         {
             image:feature_2,
             heading:'Interactive Visualizations',
-            subHeading:'From models trained on prior student<br /> performance data, predict future outcomes<br /> so that you can address learning gaps<br /> before it’s too late.',
+            subHeading:'From models trained on prior student performance data, predict future outcomes so that you can address learning gaps before it’s too late.',
         },
         {
             image:feature_3,
             heading:'One Click Sharing',
-            subHeading:'With just a few clicks, you can share your<br /> reports with students, counsellors, parents & <br />school admins.',
+            subHeading:'With just a few clicks, you can share your reports with students, counsellors, parents & school admins.',
         },
         {
             image:feature_4,
             heading:'Timely Interventions',
-            subHeading:'Use insights to provide feedback and make<br /> effective interventions to support struggling <br /> students.',
+            subHeading:'Use insights to provide feedback and make effective interventions to support struggling  students.',
         },
         {
             image:feature_5,
             heading:'Real Time Notifications',
-            subHeading:'Within seconds, notify your institution<br /> regarding important circulars and keep them<br /> updated.',
+            subHeading:'Within seconds, notify your institution regarding important circulars and keep them updated.',
         },
         {
             image:feature_6,
             heading:'Unified Data Source',
-            subHeading:'An interactive system that integrates data<br /> from multiple sources to provide detailed<br /> analysis.',
+            subHeading:'An interactive system that integrates data from multiple sources to provide detailed analysis.',
         }
     ]
 

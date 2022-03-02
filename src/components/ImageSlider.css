@@ -176,6 +176,11 @@ color: #fff;
 .slider-image-container{
     padding-right: 30px;
 }
+
+.slick-list,.slick-initialized{
+    width:102vw !important;
+}
+
 @media only screen and (max-width: 600px) {
     .slick-active >.ft-slick__dots--custom {
         margin-bottom:-48%;

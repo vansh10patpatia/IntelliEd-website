@@ -92,12 +92,12 @@ letter-spacing: 0.05em;
 }
 
 .how-it-works{
-    position:relative;
-    left:50%;
+    /* position:relative;
+    left:50%; */
 }
 .demo-button{
-    position: absolute;
-    right:40px;
+    /* position: absolute;
+    right:40px; */
 }
 .navbar-demo{
     font-weight: 600 !important;
@@ -107,6 +107,27 @@ letter-spacing: 0.05em;
 .navbar-light .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 0.55)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
     border-width:0
+}
+.navbar-tiles{
+    margin-right: 50px;
+}
+
+#basic-navbar-nav{
+    display:flex;
+    justify-content: flex-end !important;
+    position: absolute;
+    right: 10px;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    #basic-navbar-nav{
+        display:none;
+        justify-content: none !important;
+        position: none;
+        right: 10px;
+    }
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -134,4 +155,6 @@ letter-spacing: 0.05em;
         position:relative;
         left:0;
     }
+
+   
   }
