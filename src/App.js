@@ -15,7 +15,9 @@ function App() {
     <div>
       <div className="headContainer">
         <Navbar   />
-        <Header />
+        <div id="intellied">
+          <Header   />
+        </div>
         <ImageSlider />
       </div>
        <div className="downContainer">

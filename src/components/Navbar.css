@@ -112,20 +112,28 @@ letter-spacing: 0.05em;
     margin-right: 50px;
 }
 
-#basic-navbar-nav{
+.tiles-container{
     display:flex;
     justify-content: flex-end !important;
     position: absolute;
     right: 10px;
 }
 
+.components-link{
+    margin-top:7px
+}
+
+
+.navbar-tiles{
+    margin-left:70px
+}
+
 @media only screen and (max-width: 1000px) {
 
-    #basic-navbar-nav{
-        display:none;
-        justify-content: none !important;
-        position: none;
-        right: 10px;
+    .tiles-container{
+        display:contents !important;
+        justify-content: flex-end !important;
+        position: relative;
     }
 
 }
@@ -134,7 +142,11 @@ letter-spacing: 0.05em;
    
     .demo-button{
         position: absolute;
-        right:-30px
+        right:-30px;
+        bottom:10px
+    }
+    .components-link{
+        margin-left:7px
     }
     .tiles-container{
         margin-left:0
@@ -156,5 +168,9 @@ letter-spacing: 0.05em;
         left:0;
     }
 
+
+    .navbar-tiles{
+        margin-left:75px
+    }
    
   }
