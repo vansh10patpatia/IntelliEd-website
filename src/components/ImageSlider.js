@@ -24,9 +24,9 @@ function ImageSlider(props) {
         adaptiveHeight: true,
         appendDots: dots => <ul>{dots}</ul>,
         customPaging: i => (
-        <div className="ft-slick__dots--custom">
-            <div className="loading" />
-        </div>
+                <div className="ft-slick__dots--custom">
+                    <div className="loading" />
+                </div>
         )
     };
 
@@ -54,7 +54,6 @@ function ImageSlider(props) {
     ]
 
     function renderSlider(item,key) {
-        // console.log(item,key);
         var imageClass = 'slider-image'+key;
         return(<Container className="slides-container">
             <Row className='slider-box'>

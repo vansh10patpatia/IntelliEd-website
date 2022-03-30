@@ -4,7 +4,7 @@ import mobile from "../images/Mockup.png";
 import "./Header.css"
 import { Row, Container, Col } from "react-bootstrap";
 
-function Header(props) {
+function Header() {
     return (
         <>
             <Container className="header-container">
