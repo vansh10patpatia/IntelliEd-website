@@ -25,7 +25,7 @@ function Benefit() {
         },
     ];
 
-    function renderBenefit(item,key) {
+    function renderBenefit(item) {
         return(
             <div className='benefit-details'>
                 <span><img src={tick} alt='benefit-tick' className='benefit-tick' /></span>{item.benefit}
@@ -60,19 +60,6 @@ function Benefit() {
                     </Col>
                 </Row>
             </Row>
-
-                   
-
-                {/* <div className='benefit-box'>
-                    <div className='benefit-context'>
-
-                        {benefits.map((item,key)=>renderBenefit(item,key))}
-
-                    </div>
-                    <div className='benefit-image'>
-                        <img src={benefit} className='app-image' />
-                    </div> 
-                </div> */}
         </Container>
     );
 }
