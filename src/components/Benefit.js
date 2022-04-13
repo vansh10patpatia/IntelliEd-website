@@ -5,7 +5,7 @@ import benefit from "../images/benefits.png";
 import { Row, Container, Col } from "react-bootstrap";
 
 
-function Benefit(props) {
+function Benefit() {
 
     const benefits = [
         {
